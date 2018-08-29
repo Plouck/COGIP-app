@@ -3,9 +3,9 @@
 - **Ou?** : [BeCode](https://becode.org/)
 - **Quand ?** :  28/08 - 04/09/2018
 - **Par qui ?** : 
-- [Hakan Poyraz](https://github.com/Plouck) 
-- [Alexandre Infanti](https://github.com/Alex-Nfnt)  
-- [Marie Cambie](https://github.com/MCambie) 
+  - [Hakan Poyraz](https://github.com/Plouck) 
+  - [Alexandre Infanti](https://github.com/Alex-Nfnt)  
+  - [Marie Cambie](https://github.com/MCambie) 
 - **The Website** : 
 
 ## Briefing : 
