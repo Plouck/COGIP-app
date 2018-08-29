@@ -1,13 +1,11 @@
 <?php
 //On démarre la session
 session_start();
-
 //On se connecte à MySQL
 mysql_connect('localhost', 'root', '');
 mysql_select_db('tests');
 
 include 'vues/menu.php';
-
 //On inclut le contrôleur s'il existe et s'il est spécifié
 if (!empty($_GET['page']) && is_file('controleurs/'.$_GET['page'].'.php'))
 {
