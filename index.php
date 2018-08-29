@@ -6,8 +6,6 @@ session_start();
 mysql_connect('localhost', 'root', '');
 mysql_select_db('tests');
 
-//On inclut le logo du site et le menu
-include 'vues/logo.php';
 include 'vues/menu.php';
 
 //On inclut le contrôleur s'il existe et s'il est spécifié
