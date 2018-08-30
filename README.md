@@ -2,13 +2,13 @@
 - **Client** : [BeCode](https://becode.org/)
 - **Ou?** : [BeCode](https://becode.org/)
 - **Quand ?** :  28/08 - 04/09/2018
-- **Par qui ?** : 
-  - [Hakan Poyraz](https://github.com/Plouck) 
+- **Par qui ?** :
+  - [Hakan Poyraz](https://github.com/Plouck)
   - [Alexandre Infanti](https://github.com/Alex-Nfnt)  
-  - [Marie Cambie](https://github.com/MCambie) 
-- **The Website** : 
+  - [Marie Cambie](https://github.com/MCambie)
+- **The Website** :
 
-## Briefing : 
+## Briefing :
 ### An app for Jean-Christian Ranu
 La COGIP est une société qu'on ne sait pas trop ce qu'elle fait à part des jouets Jean-Michel et des échanges de Pokemon. Elle abrite en son sein des employés exceptionnels dont Jean-Christian Ranu.
 
@@ -18,7 +18,7 @@ Nous vous proposons de coder une web application qui réponde aux besoins et env
 
 Vous pourrez proposer votre projet via le formulaire de remise de projets et ainsi bénéficier d'une review dans les règles de l'art ainsi que l'attribution de badges de compétences si l'envie vous en prend.       
 
-## Objectifs 
+## Objectifs
 ### Objectifs d'évaluation
 * Utiliser des paramètres URL et des noms de fichiers différents
 * Bien utiliser la sanitization pour éviter les injections SQL dans votre DB (un esprit malveillant pourrait tenter de delete l'intégralité de votre DB)
@@ -44,5 +44,8 @@ N'oubliez pas de mettre le fichier SQL avec la structure et les données dans vo
 
 ## Maquette du projet :
 
-## Project Board : 
+![Accueil](image/COGIP1.jpg)
+![Tableaux](image/COGIP2.jpg)
+
+## Project Board :
 [KANBAN](https://github.com/Plouck/COGIP-app/projects)
