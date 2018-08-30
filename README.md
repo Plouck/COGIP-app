@@ -44,8 +44,8 @@ N'oubliez pas de mettre le fichier SQL avec la structure et les données dans vo
 
 ## Maquette du projet :
 
-![Accueil](./image/COGIP1.jpg)
-![Tableaux](./image/COGIP2.jpg )
+![Accueil](./assets/image/COGIP1.jpg)
+![Tableaux](./assets/image/COGIP2.jpg )
 
 ## Project Board :
 [KANBAN](https://github.com/Plouck/COGIP-app/projects)
