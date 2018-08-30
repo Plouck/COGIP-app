@@ -9,3 +9,23 @@
   </head>
 
   <body>
+
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="assets/image/COGIP.png" alt="">
+      </div>
+      <div class="col-md-4">
+        COGIP C LA VI TAVU
+      </div>
+      <div class="col-md-4">
+        <form class="" action="models/header.php" method="post">
+          <input type="text" name="log" value="Login">
+          <input type="text" name="mdp" value="Mot de passe">
+          <input type="submit" name="send" value="Envoi">
+        </form>
+      </div>
+    </div>
+  </div>
+</header>
