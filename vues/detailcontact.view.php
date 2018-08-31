@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>détail contact</title>
-  </head>
-  <body>
-
     <?php require 'header.view.php'; ?>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Pagination des données de la database -->
+    <?php require '..\models\detailcontact.models.php' ?>
 
     <ul class="pagination">
         <li><a href="?pageno=1">First</a></li>
@@ -22,6 +16,3 @@
     </ul>
 
     <?php require 'footer.view.php'; ?>
-
-  </body>
-</html>
