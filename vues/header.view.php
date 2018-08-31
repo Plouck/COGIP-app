@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>Accueil</title>
 
-      <link rel="stylesheet" href="../assets/CSS/style.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="../assets/CSS/style.css">
 
 </head>
 <body>
@@ -13,23 +13,25 @@
   </head>
 
   <body>
+  <div class="container-fluid">
 
-<header>
-    <div class="row" id="RAGE">
-      <div class="col-md-5">
-        <figure>
-          <img src="assets/image/COGIP.png" alt="">
-        </figure>
-      </div>
-      <div class="col-md-5">
-        <p>COGIP C LA VI TAVU</p>
-      </div>
-      <div class="col-md-2">
-        <form action="controllers/header.php" method="post">
-          Login : <input type="text" name="log" value="">
-          Mot de passe : <input type="password" name="mdp" value="">
-          <input type="submit" name="send" value="Envoi">
-        </form>
-      </div>
-    </div>
-</header>
+    <header>
+        <div class="row">
+          <div class="col-md-5">
+            <figure>
+              <img src="assets/image/COGIP.png" alt="">
+            </figure>
+          </div>
+          <div class="col-md-5">
+            <p>COGIP C LA VI TAVU</p>
+          </div>
+          <div class="col-md-2">
+            <form action="controllers/header.php" method="post">
+              Login : <input type="text" name="log" value="">
+              Mot de passe : <input type="password" name="mdp" value="">
+              <input type="submit" name="send" value="Envoi">
+            </form>
+          </div>
+        </div>
+
+    </header>
