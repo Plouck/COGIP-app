@@ -1,10 +1,10 @@
 <?php
 require "db.php";
 
-function getAllSociety(){
+function getAllBills(){
 
   global $pdo;
-  $resultat = $pdo->query('SELECT * FROM societe ORDER BY name ASC');
+  $resultat = $pdo->query('SELECT * FROM facture ORDER BY date DESC');
 
 
   $donnees = $resultat->fetchAll();
@@ -14,5 +14,4 @@ function getAllSociety(){
 
 //  var_dump($donnees);
 };
-
  ?>

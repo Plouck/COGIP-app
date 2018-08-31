@@ -1,10 +1,10 @@
 <?php
 require "db.php";
 
-function getAllSociety(){
+function getAllFournisseurs(){
 
   global $pdo;
-  $resultat = $pdo->query('SELECT * FROM societe ORDER BY name ASC');
+  $resultat = $pdo->query('SELECT * FROM societe WHERE type_idType = 1 ');
 
 
   $donnees = $resultat->fetchAll();
@@ -14,5 +14,4 @@ function getAllSociety(){
 
 //  var_dump($donnees);
 };
-
  ?>
