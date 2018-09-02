@@ -7,4 +7,5 @@ $conn=mysqli_connect("localhost","root","","cogip");
 $sql = "SELECT login, pass FROM logs";
 $result = $conn->query($sql);
 
+
  ?>
