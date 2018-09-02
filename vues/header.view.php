@@ -26,11 +26,12 @@
             <p>COGIP C LA VI TAVU</p>
           </div>
           <div class="col-md-2">
-            <form action="controllers/header.php" method="post">
+            <form action="" method="post">
               Login : <input type="text" name="log" value="">
               Mot de passe : <input type="password" name="mdp" value="">
               <input type="submit" name="send" value="Envoi">
             </form>
+            <?php require ('controllers/login.controller.php') ?>
           </div>
         </div>
 
