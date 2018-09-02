@@ -8,6 +8,8 @@ if (isset($_POST["send"])) {
   echo $log;
   echo "<br>";
   echo $passwordSecure;
+
+  session_start();
 }
 
 

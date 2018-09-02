@@ -1,7 +1,7 @@
 <?php
 
 // Create connection
-$conn = mysqli("localhost","root","","cogip");
+$conn=mysqli_connect("localhost","root","","cogip");
 
 // SELECT TABLE
 $sql = "SELECT login, pass FROM logs";
