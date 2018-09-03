@@ -26,7 +26,7 @@
             <p>COGIP C LA VI TAVU</p>
           </div>
           <div class="col-md-2">
-            <?php require ('vues/formlog.vues.php') ?>
+            <?php require ('formlog.vues.php') ?>
           </div>
         </div>
 
