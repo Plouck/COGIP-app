@@ -8,12 +8,11 @@ include "../controllers/factures.controllers.php";
         <th>N° de facture</th>
         <th>Date</th>
       </tr>
-</a>
 <?php
 
 foreach ($donnees as $key => $facture) {
 
-  echo "<tr><td><a href='detailfacture.view.php'>".  $facture['idFacture' ]. "</td><td>".  $facture['date' ]. "</a></td></tr>";
+  echo "<tr><td><a href='detailfacture.view.php?idFacture=".$facture['idFacture']."'>".  $facture['idFacture' ]. "</td><td>".  $facture['date' ]. "</a></td></tr>";
 
 }
 
