@@ -12,7 +12,7 @@ include "../controllers/societe.controllers.php";
 
 foreach ($donnees as $key => $societe) {
 
-  echo "<tr><td><a href='detailsociete.view.php'>".  $societe['name' ]. "</a></td></tr>";
+  echo "<tr><td><a href='detailsociete.view.php?id=".$societe['idSociete']."'>".  $societe['name' ]. "</a></td></tr>";
 
 }
 
