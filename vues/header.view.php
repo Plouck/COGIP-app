@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
@@ -8,22 +10,19 @@
       <link rel="stylesheet" href="assets/CSS/style.css">
 
 </head>
-<body>
-
-  </head>
 
   <body>
   <div class="container-fluid">
 
     <header>
-        <div class="row">
-          <div class="col-md-5">
+        <div class="row" id="header">
+          <div class="col-md-2">
             <figure>
-              <img src="assets/image/COGIP.png" alt="">
+              <img src="assets/image/COGIP.png" alt="logoCOGIP">
             </figure>
           </div>
-          <div class="col-md-5">
-            <p>COGIP C LA VI TAVU</p>
+          <div class="col-md-8" id="slogan">
+            <p>Chez COGIP <br> pas de gossip <br> on cogit</p>
           </div>
           <div class="col-md-2">
             <?php require ('formlog.vues.php') ?>
