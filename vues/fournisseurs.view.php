@@ -8,12 +8,11 @@ include "../controllers/fournisseurs.controllers.php";
       <tr>
         <th>Fournisseur</th>
       </tr>
-</a>
 <?php
 
 foreach ($donnees as $key => $fournisseur) {
 
-  echo "<tr><td><a href='detailsociete.view.php'>".  $fournisseur['name' ]. "</a></td></tr>";
+  echo "<tr><td><a href='detailsociete.view.php?idSociete=".$fournisseur['idSociete']."'>".  $fournisseur['name' ]. "</a></td></tr>";
 
 }
 

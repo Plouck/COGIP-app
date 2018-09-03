@@ -8,12 +8,12 @@ include "../controllers/clients.controllers.php";
       <tr>
         <th>Clients</th>
       </tr>
-</a>
+
 <?php
 
 foreach ($donnees as $key => $client) {
 
-  echo "<tr><td><a href='detailsociete.view.php'>".  $client['name' ]. "</a></td></tr>";
+  echo "<tr><td><a href='detailsociete.view.php?idSociete=".$client['idSociete']."'>". $client['name' ]. "</a></td></tr>";
 
 }
 
