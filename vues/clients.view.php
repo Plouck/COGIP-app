@@ -1,7 +1,6 @@
-<?php
-include "header.view.php";
-include "../controllers/clients.controllers.php";
- ?>
+ <?php require "header.view.php" ?>
+ 
+ <?php include "../controllers/clients.controllers.php" ?>
 
     <h1>Clients</h1>
     <table>

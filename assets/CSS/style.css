@@ -1,9 +1,33 @@
-<<<<<<< HEAD
 .row {
-  margin-right: 15px;
-}
-.align {
+  margin: auto;
+  margin-top: 20px;
   text-align: center;
 }
-=======
->>>>>>> 06fb7872e34269d307f821bf724022c3dc02bcd7
+
+.card {
+  background-color: #DCDCDC;
+}
+
+p {
+  text-align: center;
+}
+
+#header {
+  background-image: radial-gradient(circle, #5C8ECE, white, white);
+  margin-top: 0px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+#slogan {
+  font-size: 35px;
+  vertical-align: baseline;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+.btn {
+  background-color: #5C8ECE;
+}
