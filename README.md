@@ -48,7 +48,7 @@ N'oubliez pas de mettre le fichier SQL avec la structure et les données dans vo
 ![Tableaux](./assets/image/COGIP2.jpg )
 
 ## Schéma de la base de données : 
-![SchemaDB](./assets/image/Sans titre.png)
+![SchemaDB](./assets/image/DB.png)
 
 ## Project Board :
 [KANBAN](https://github.com/Plouck/COGIP-app/projects)
