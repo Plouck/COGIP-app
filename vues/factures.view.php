@@ -1,6 +1,6 @@
 <?php
-include "header.view.php";
-include "../controllers/factures.controllers.php";
+// require "header.view.php";
+require "../controllers/factures.controllers.php";
  ?>
     <h1>Factures</h1>
     <table>
