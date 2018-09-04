@@ -9,13 +9,7 @@
        $no_of_records_per_page = 5;
        $offset = ($pageno-1) * $no_of_records_per_page;
 
-       $conn=mysqli_connect("localhost","root","","cogip");
-
-       // Check connection
-       if (mysqli_connect_errno()){
-           echo "Failed to connect to MySQL: " . mysqli_connect_error();
-           die();
-       }
+      require '../models/db.php';
 
        $total_pages_sql = "SELECT COUNT(*) FROM societe";
        $result = mysqli_query($conn,$total_pages_sql);

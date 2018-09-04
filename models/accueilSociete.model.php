@@ -1,6 +1,6 @@
 <?php require 'models/db.php';
 
-$query = 'SELECT * FROM personne ORDER BY idPersonne DESC LIMIT 5;';
+$query = 'SELECT * FROM societe ORDER BY idSociete DESC LIMIT 5;';
   try{
     $pdo_select = $pdo->prepare($query);
     $pdo_select->execute();
@@ -14,15 +14,13 @@ if($NbreData != 0){
             <tr>
               <th>id</th>
               <th>Nom</th>
-              <th>Prénom</th>
             </tr>
           </thead>
           <tbody>";
   foreach ($rowAll as $row) {
     echo "<tr>
-            <td>"; echo $row['idPersonne']; echo"</td>
+            <td>"; echo $row['idSociete']; echo"</td>
             <td>"; echo $row['name']; echo"</td>
-            <td>"; echo $row['firstName']; echo"</td>
           </tr>";
   }
   echo "</tbody>
