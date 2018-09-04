@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php require "models/login.php" ?>
+=======
+
+>>>>>>> master
 
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
