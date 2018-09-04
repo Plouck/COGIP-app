@@ -30,12 +30,13 @@
             </div>
           </div>
         </div>
+
       <!-- double card pour consulter les clients ou les fournisseurs -->
       <div class="row">
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
-              <h2 class="card-title">Les clients</h2>
+              <h5 class="card-title">Les clients</h5>
               <a href="#" class="btn btn-primary">Afficher tout les clients</a>
             </div>
           </div>
@@ -43,7 +44,7 @@
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
-              <h2 class="card-title">Les fournisseurs</h2>
+              <h5 class="card-title">Les fournisseurs</h5>
               <a href="#" class="btn btn-primary">Afficher tout les fournisseurs</a>
             </div>
           </div>

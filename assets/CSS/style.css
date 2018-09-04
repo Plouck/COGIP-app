@@ -19,9 +19,20 @@ p {
   text-align: center;
 }
 
+img {
+  background-image: url('https://orig00.deviantart.net/1826/f/2017/226/e/8/compass_sword_animation2_by_boberatu-dbk2ndx.gif');
+  background-position: center;
+  background-size: cover;
+}
+
 #slogan {
   font-size: 35px;
   vertical-align: baseline;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 25px;
 }
 
 footer {
@@ -30,8 +41,19 @@ footer {
 
 .btn {
   background-color: #5C8ECE;
-<<<<<<< HEAD
 }
-=======
+
+table {
+  margin: auto;
 }
->>>>>>> master
+
+th {
+  width: 30%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+td {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
