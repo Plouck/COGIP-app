@@ -9,7 +9,7 @@ if (!empty($_GET['page']) && is_file('controllers/'.$_GET['page'].'.php'))
 }
 else
 {
-        include 'controllers\accueil.controller.php';
+        include 'controllers/accueil.controller.php';
 }
 
 require 'vues/footer.view.php';
