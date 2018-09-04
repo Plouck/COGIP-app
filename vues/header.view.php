@@ -1,4 +1,4 @@
-<?php require "models/login.php" ?>
+<?php require "/models/login.php" ?>
 
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -7,7 +7,7 @@
     <title>Accueil</title>
 
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <link rel="stylesheet" href="assets/CSS/style.css">
+      <link rel="stylesheet" href="/assets/CSS/style.css">
 
 </head>
 
@@ -18,7 +18,7 @@
         <div class="row" id="header">
           <div class="col-md-2">
             <figure>
-              <img src="assets/image/COGIP.png" alt="logoCOGIP">
+              <img src="/assets/image/COGIP.png" alt="logoCOGIP">
             </figure>
           </div>
           <div class="col-md-8" id="slogan">

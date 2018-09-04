@@ -1,5 +1,5 @@
 <?php
-require "header.view.php";
+// require "header.view.php";
 require "../controllers/detailfacture.controllers.php";
  ?>
  <h1>Société</h1>
