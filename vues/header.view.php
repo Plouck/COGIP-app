@@ -18,7 +18,7 @@
         <div class="row" id="header">
           <div class="col-md-2">
             <figure>
-              <img src="assets/image/COGIP.png" alt="logoCOGIP">
+              <a onclick="self.location.href='?page='"><img src="assets/image/COGIP.png" alt="logoCOGIP"></a>
             </figure>
           </div>
           <div class="col-md-8" id="slogan">

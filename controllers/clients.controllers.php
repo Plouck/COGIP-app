@@ -1,5 +1,5 @@
 <?php
-include "../models/clients.models.php";
+include "models/clients.models.php";
 
 $donnees = getAllClients();
  ?>

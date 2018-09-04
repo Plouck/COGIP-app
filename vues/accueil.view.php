@@ -7,7 +7,7 @@
               <div class="card-body">
                 <h5 class="card-title text-center">Factures</h5>
                 <p class="card-text"> <?php require "models\accueilFactures.model.php"?> </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <input class="btn btn-primary" name="" type="button" onclick="self.location.href='?page=factures'" />
               </div>
             </div>
           </div>
@@ -16,7 +16,7 @@
               <div class="card-body">
                 <h5 class="card-title text-center">Personnes</h5>
                 <p class="card-text"><?php require "models\accueilPersonnes.model.php"?></p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <input class="btn btn-primary" name="" type="button" onclick="self.location.href='?page=clients'" />
               </div>
             </div>
           </div>
@@ -25,7 +25,7 @@
               <div class="card-body">
                 <h5 class="card-title text-center">Entreprises</h5>
                 <p class="card-text"><?php require "models\accueilSociete.model.php"?></p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <input class="btn btn-primary" name="" type="button" onclick="self.location.href='?page=societe'" />
               </div>
             </div>
           </div>
@@ -36,7 +36,7 @@
           <div class="card">
             <div class="card-body">
               <h2 class="card-title">Les clients</h2>
-              <a href="#" class="btn btn-primary">Afficher tout les clients</a>
+              <a onclick="self.location.href='?page=annuaire'" class="btn btn-primary">Afficher tout les clients</a>
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@
           <div class="card">
             <div class="card-body">
               <h2 class="card-title">Les fournisseurs</h2>
-              <a href="#" class="btn btn-primary">Afficher tout les fournisseurs</a>
+              <a onclick="self.location.href='?page=fournisseurs'" class="btn btn-primary">Afficher tout les fournisseurs</a>
             </div>
           </div>
         </div>

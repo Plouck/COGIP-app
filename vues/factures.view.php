@@ -1,6 +1,5 @@
 <?php
-include "header.view.php";
-include "../controllers/factures.controllers.php";
+include "controllers/factures.controllers.php";
  ?>
     <h1>Factures</h1>
     <table>
@@ -18,6 +17,3 @@ foreach ($donnees as $key => $facture) {
 
  ?>
 </table>
-<?php
-include "footer.view.php";
- ?>

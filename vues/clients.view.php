@@ -1,6 +1,5 @@
 <?php
-include "header.view.php";
-include "../controllers/clients.controllers.php";
+include "controllers/clients.controllers.php";
  ?>
 
     <h1>Clients</h1>
@@ -19,6 +18,3 @@ foreach ($donnees as $key => $client) {
 
  ?>
 </table>
-<?php
-include "footer.view.php";
- ?>
