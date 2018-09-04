@@ -9,7 +9,7 @@
        $no_of_records_per_page = 5;
        $offset = ($pageno-1) * $no_of_records_per_page;
 
-      require '../models/db.php';
+      require 'models/db.php';
 
        $total_pages_sql = "SELECT COUNT(*) FROM societe";
        $result = mysqli_query($conn,$total_pages_sql);
