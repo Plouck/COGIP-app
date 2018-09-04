@@ -6,7 +6,7 @@
   - [Hakan Poyraz](https://github.com/Plouck)
   - [Alexandre Infanti](https://github.com/Alex-Nfnt)  
   - [Marie Cambie](https://github.com/MCambie)
-- **The Website** :
+- [**Le site**](https://cogipbecode.000webhostapp.com/) 
 
 ## Briefing :
 ### An app for Jean-Christian Ranu
@@ -46,6 +46,9 @@ N'oubliez pas de mettre le fichier SQL avec la structure et les données dans vo
 
 ![Accueil](./assets/image/COGIP1.jpg)
 ![Tableaux](./assets/image/COGIP2.jpg )
+
+## Schéma de la base de données : 
+![Schema DB](./assets/image/Sans titre.png)
 
 ## Project Board :
 [KANBAN](https://github.com/Plouck/COGIP-app/projects)
