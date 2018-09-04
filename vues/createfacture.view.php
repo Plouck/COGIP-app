@@ -1,10 +1,10 @@
 <?php
 
-// require "../controllers/createfacture.controllers.php"
+require "../controllers/createfacture.controllers.php"
  ?>
 
 <h1>Ajouter une facture</h1>
-	<form action="../models/createfacture.models.php" method="post">
+	<form action="" method="post">
 		<div>
 			<label for="date">date</label>
 			<input type="date" name="date" value="">
@@ -35,7 +35,8 @@
         <option value="6">fdsgs fgsd</option>
       </select>
     </div>
-		<button type="submit" name="button">Envoyer</button>
+    <input type="submit" name="submit" value="envoyer">
+		<!-- <button type="submit" name="submit">Envoyer</button> -->
 	</form>
 
   <h1>Factures</h1>
