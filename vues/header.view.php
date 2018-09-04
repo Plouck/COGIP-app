@@ -1,4 +1,4 @@
-<?php require "/models/login.php" ?>
+<?php require "models/login.php" ?>
 
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
