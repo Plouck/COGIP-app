@@ -36,26 +36,16 @@
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
-<<<<<<< HEAD
-              <h5 class="card-title">Les clients</h5>
-              <a href="#" class="btn btn-primary">Afficher tout les clients</a>
-=======
               <h2 class="card-title">Les clients</h2>
               <a onclick="self.location.href='?page=annuaire'" class="btn btn-primary">Afficher tout les clients</a>
->>>>>>> hakan
             </div>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
-<<<<<<< HEAD
-              <h5 class="card-title">Les fournisseurs</h5>
-              <a href="#" class="btn btn-primary">Afficher tout les fournisseurs</a>
-=======
               <h2 class="card-title">Les fournisseurs</h2>
               <a onclick="self.location.href='?page=fournisseurs'" class="btn btn-primary">Afficher tout les fournisseurs</a>
->>>>>>> hakan
             </div>
           </div>
         </div>
