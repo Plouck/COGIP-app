@@ -1,6 +1,12 @@
+<<<<<<< HEAD
  <?php require "header.view.php" ?>
  
  <?php include "../controllers/clients.controllers.php" ?>
+=======
+<?php
+include "controllers/clients.controllers.php";
+ ?>
+>>>>>>> hakan
 
     <h1>Clients</h1>
     <table>
@@ -18,6 +24,3 @@ foreach ($donnees as $key => $client) {
 
  ?>
 </table>
-<?php
-include "footer.view.php";
- ?>

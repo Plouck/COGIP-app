@@ -1,5 +1,5 @@
 <?php
-require "../models/detailsociete.models.php";
+require "models/detailsociete.models.php";
 
 $donnees = getDetailSociety();
 

@@ -1,6 +1,10 @@
 <?php
+<<<<<<< HEAD
 // include "header.view.php";
 include "../controllers/societe.controllers.php";
+=======
+include "controllers/societe.controllers.php";
+>>>>>>> hakan
  ?>
     <h1>Sociétés</h1>
     <table>
@@ -18,6 +22,3 @@ foreach ($donnees as $key => $societe) {
 
  ?>
 </table>
-<?php
-include "footer.view.php";
- ?>

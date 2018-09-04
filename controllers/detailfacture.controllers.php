@@ -1,5 +1,5 @@
 <?php
-require "../models/detailfacture.models.php";
+require "models/detailfacture.models.php";
 
 $donnees = getDetailBill();
 

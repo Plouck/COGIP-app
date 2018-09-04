@@ -1,5 +1,5 @@
 <?php
-include "../models/factures.models.php";
+include "models/factures.models.php";
 
 $donnees = getAllBills();
  ?>
